@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://Cory-Athmer.github.io/yourrepo/Hotels.xsd">
+
+	<Hotel HotelID="H001" SomeOptionalAttr="VIP">
+		<Name>Westin</Name>
+		<Phone>480-968-8885</Phone>
+		<Phone>800-937-8461</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>11</Number>
+			<Street>E 7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+		<Rating>4.2</Rating>
+	</Hotel>
+
+	<Hotel HotelID="H002">
+		<Name>Marriott Downtown</Name>
+		<Phone>602-200-1234</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>100</Number>
+			<Street>N 2nd St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel HotelID="H003" SomeOptionalAttr="Renovated">
+		<Name>Hilton Phoenix Resort</Name>
+		<Phone>602-555-4321</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>7677</Number>
+			<Street>N 16th St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85020</Zip>
+		</Address>
+		<Rating>4.1</Rating>
+	</Hotel>
+
+	<Hotel HotelID="H004">
+		<Name>Hyatt Regency Scottsdale</Name>
+		<Phone>480-444-9876</Phone>
+		<Phone>480-444-9877</Phone>
+		<Address NearestAirport="Phoenix-Mesa Gateway">
+			<Number>7500</Number>
+			<Street>E Doubletree Ranch Rd</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85258</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel HotelID="H005" SomeOptionalAttr="NearGolf">
+		<Name>Four Seasons Resort</Name>
+		<Phone>480-515-5700</Phone>
+		<Address>
+			<Number>10600 </Number>
+			<Street>E Crescent Moon Dr</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85262</Zip>
+		</Address>
+		<Rating>4.8</Rating>
+	</Hotel>
+
+	<Hotel HotelID="H006">
+		<Name>DoubleTree by Hilton</Name>
+		<Phone>480-947-5400</Phone>
+		<Address>
+			<Number>5401</Number>
+			<Street>N Scottsdale Rd</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85250</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel HotelID="H007" SomeOptionalAttr="Conference">
+		<Name>Sheraton Grand</Name>
+		<Phone>602-262-2500</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>340</Number>
+			<Street>N 3rd St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+		<Rating>4.3</Rating>
+	</Hotel>
+
+	<Hotel HotelID="H008">
+		<Name>Renaissance Phoenix</Name>
+		<Phone>602-333-0000</Phone>
+		<Address>
+			<Number>50</Number>
+			<Street>E Adams St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel HotelID="H009" SomeOptionalAttr="Budget">
+		<Name>La Quinta Inn</Name>
+		<Phone>602-258-6271</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>2725</Number>
+			<Street>N Black Canyon Hwy</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85009</Zip>
+		</Address>
+		<Rating>3.8</Rating>
+	</Hotel>
+
+	<Hotel HotelID="H010">
+		<Name>Courtyard by Marriott</Name>
+		<Phone>480-456-1234</Phone>
+		<Address>
+			<Number>601</Number>
+			<Street>S Ash Ave</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+</Hotels>
