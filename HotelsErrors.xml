@@ -3,11 +3,11 @@
   Error 1: The root element is "Hotel" instead of "Hotels".
 -->
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:noNamespaceSchemaLocation="https://Cory-Athmer.github.io/yourrepo/Hotels.xsd">
+       xsi:noNamespaceSchemaLocation="https://cory-athmer.github.io/cse445_a4//Hotels.xsd">
 
 	<!-- 
     Error 2: Missing required attribute "HotelID". 
-    Error 5: Two Name elements provided
+    Error 5: Two Name elements provided 
     Error 4: <Address> element is missing its closing tag.
   -->
 	<Hotel SomeOptionalAttr="VIP">

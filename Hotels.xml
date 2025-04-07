@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="https://Cory-Athmer.github.io/yourrepo/Hotels.xsd">
+        xsi:noNamespaceSchemaLocation="https://cory-athmer.github.io/cse445_a4//Hotels.xsd">
 
 	<Hotel HotelID="H001" SomeOptionalAttr="VIP">
 		<Name>Westin</Name>
