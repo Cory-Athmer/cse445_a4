@@ -17,11 +17,11 @@
 							<xs:element name="Address">
 								<xs:complexType>
 									<xs:sequence>
-										<xs:element name="Number" type="xs:string"/>
+										<xs:element name="Number" type="xs:float"/>
 										<xs:element name="Street" type="xs:string"/>
 										<xs:element name="City" type="xs:string"/>
 										<xs:element name="State" type="xs:string"/>
-										<xs:element name="Zip" type="xs:string"/>
+										<xs:element name="Zip" type="xs:float"/>
 									</xs:sequence>
 									<!-- attribute on Address -->
 									<xs:attribute name="NearestAirport" type="xs:string" use="optional"/>
@@ -29,7 +29,7 @@
 							</xs:element>
 
 							<!-- Rating  -->
-							<xs:element name="Rating" type="xs:string" minOccurs="0" maxOccurs="1"/>
+							<xs:element name="Rating" type="xs:float" minOccurs="0" maxOccurs="1"/>
 						</xs:sequence>
 
 						<!-- HotelID -->
